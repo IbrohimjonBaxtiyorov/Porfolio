@@ -11,11 +11,11 @@ export default function Me() {
         <div>
           <div className="flex flex-col items-center mb-5 gap-3 sm:gap-6 sm:flex-row">
             <Avatar className="w-[100px] h-[100px] aspect-square object-cover sm:w-[170px] sm:h-[170px] sm:shadow-sm animate-slide-top">
-              <AvatarImage src={MeImg.src} alt="Mirzo Ulug'bek" />
+              <AvatarImage src={MeImg.src} alt="Ibrohimjon" />
               <AvatarFallback className="text-5xl">I</AvatarFallback>
             </Avatar>
             <div className="flex flex-col text-center items-center sm:text-left sm:items-start animate-slide-top delay-300">
-              <h2 className="text-2xl font-medium mb-1 sm:text-4xl">Ibrohim</h2>
+              <h2 className="text-2xl font-medium mb-1 sm:text-4xl">Ibrohim Baxtiyorov</h2>
               <p className="text-slate-500 text-lg font-medium mb-2 sm:text-2xl">
                 Frontend dasturchi
               </p>

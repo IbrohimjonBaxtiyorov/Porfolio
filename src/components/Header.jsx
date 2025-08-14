@@ -10,14 +10,14 @@ export default function Header() {
           <span className="hidden md:inline">ortfoliosi</span>
         </h1>
         <Navbar />
-        <a
+        {/* <a
           className={`${buttonVariants({
             variant: "default",
           })} hidden sm:inline-flex`}
           href={"not-found"}
         >
           Blog
-        </a>
+        </a> */}
       </div>
     </header>
   );
