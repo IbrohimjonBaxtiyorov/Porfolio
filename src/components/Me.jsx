@@ -39,15 +39,6 @@ export default function Me() {
             <div className="flex gap-5">
               <Link
                 className={`${buttonVariants({
-                  variant: "default",
-                })} animate-slide-top delay-900`}
-                href="/projects/"
-              >
-                Yechimlar
-              </Link>
-
-              <Link
-                className={`${buttonVariants({
                   variant: "outline",
                 })} animate-slide-top delay-1200`}
                 href={"/aboute/"}

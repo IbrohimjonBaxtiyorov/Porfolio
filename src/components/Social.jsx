@@ -121,7 +121,7 @@ export default function Social() {
                 size: "icon",
               })} scale-[80%]`}
               onClick={() => {
-                window?.open("/Reysume.pdf", "_blank");
+                window?.open("/Rezyume.pdf", "_blank");
               }}
             >
               <BriefcaseBusiness />

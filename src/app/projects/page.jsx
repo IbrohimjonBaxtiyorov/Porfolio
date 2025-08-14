@@ -50,10 +50,21 @@
 //     </div>
 //   );
 // }
-import React from 'react'
+// import React from 'react'
 
-export default function page() {
-  return (
-    <div></div>
-  )
+// export default function page() {
+//   return (
+//     <div></div>
+//   )
+// }
+
+{
+  /* <Link
+                className={`${buttonVariants({
+                  variant: "default",
+                })} animate-slide-top delay-900`}
+                href="/projects/"
+              >
+                Yechimlar
+              </Link> */
 }
