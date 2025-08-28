@@ -12,9 +12,13 @@ export const navbarLinks = [
     text: "Bosh sahifa",
   },
   {
-   path:"/aboute",
+    path: "/aboute",
     text: "Haqmida",
-  }
+  },
+  {
+    path: "/projects",
+    text: "Loyihalar",
+  },
 ];
 
 function Mobile({ open, pathname }) {

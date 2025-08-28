@@ -15,7 +15,9 @@ export default function Me() {
               <AvatarFallback className="text-5xl">I</AvatarFallback>
             </Avatar>
             <div className="flex flex-col text-center items-center sm:text-left sm:items-start animate-slide-top delay-300">
-              <h2 className="text-2xl font-medium mb-1 sm:text-4xl">Ibrohim Baxtiyorov</h2>
+              <h2 className="text-2xl font-medium mb-1 sm:text-4xl">
+                Ibrohim Baxtiyorov
+              </h2>
               <p className="text-slate-500 text-lg font-medium mb-2 sm:text-2xl">
                 Frontend dasturchi
               </p>
@@ -37,6 +39,15 @@ export default function Me() {
             </p>
 
             <div className="flex gap-5">
+              <Link
+                className={`${buttonVariants({
+                  variant: "outline",
+                })} animate-slide-top delay-1200`}
+                href={"/projects/"}
+              >
+                Loyihalar
+              </Link>
+              
               <Link
                 className={`${buttonVariants({
                   variant: "outline",

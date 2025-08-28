@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 export const metadata = {
   title: "Ibrohimning portfolio sahifasi",
   description:
-    "Ibrohim haqida barcha ma'lumotlarni bu yerdan topishingiz mumkin. Barcha yangiliklar ilhomlandim.uz sahifasida",
+    "Ibrohim haqida barcha ma'lumotlarni bu yerdan topishingiz mumkin.",
 };
 
 export default function RootLayout({ children }) {
