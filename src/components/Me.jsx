@@ -25,17 +25,8 @@ export default function Me() {
             </div>
           </div>
           <div className="flex flex-col items-center text-center sm:text-left sm:items-start sm:max-w-96">
-            <p className="mb-5 sm:text-lg animate-slide-top delay-600">
-              Vaqt o‘tgan sari murakkablik ortdi, lekin men{" "}
-              <span className="underline font-medium">
-                biror framework emas
-              </span>
-              , balki{" "}
-              <span className="underline font-medium">muammo yechimini</span>{" "}
-              tanladim. Endi esa{" "}
-              <span className="underline font-medium">bir necha qator kod</span>{" "}
-              bilan butun tizimni sukutga keltirishim mumkin — bu{" "}
-              <span className="italic">faqat boshlanishi.</span>
+            <p className="mb-5 sm:text-lg animate-slide-top delay-600 text-slate-500">
+             Salom 🖐️ Men Ibrohimjon Baxtiyorov Frontend dasturchiman 
             </p>
 
             <div className="flex gap-5">

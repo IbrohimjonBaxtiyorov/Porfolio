@@ -1,4 +1,5 @@
 import { buttonVariants } from "@/components/ui/button";
+import { Link1Icon } from "@radix-ui/react-icons";
 import Link from "next/link";
 
 const projectList = [
@@ -39,6 +40,7 @@ export default function page() {
                   href={href}
                   target="_blank"
                 >
+                  <Link1Icon/>
                   Ko'rish
                 </a>
               </li>

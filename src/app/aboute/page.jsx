@@ -19,11 +19,10 @@ import {
   SiNextdotjs,
   SiRedux,
   SiTailwindcss,
-  SiFlowbite,
   SiDaisyui,
   SiStrapi,
 } from "react-icons/si";
-import { MdOutlineViewCompact } from "react-icons/md"
+import { MdOutlineViewCompact } from "react-icons/md";
 
 export default function Page() {
   const skills = [
@@ -32,12 +31,18 @@ export default function Page() {
     { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
     { name: "TypeScript", icon: <SiTypescript className="text-blue-600" /> },
     { name: "React.js", icon: <FaReact className="text-cyan-400" /> },
-    { name: "Next.js",  icon: <SiNextdotjs className="text-black dark:text-white" />},
-    { name:"StrApi", icon: <SiStrapi className="text-purple-800" />},
-    {name :"Zustant", icon :<SiRedux className="text-purple-500" />},
+    {
+      name: "Next.js",
+      icon: <SiNextdotjs className="text-black dark:text-white" />,
+    },
+    { name: "StrApi", icon: <SiStrapi className="text-purple-800" /> },
+    { name: "Zustant", icon: <SiRedux className="text-purple-500" /> },
     { name: "Redux Toolkit", icon: <SiRedux className="text-purple-500" /> },
     { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400" /> },
-    { name: "Flowbite", icon: <MdOutlineViewCompact className="text-sky-500" /> },
+    {
+      name: "Flowbite",
+      icon: <MdOutlineViewCompact className="text-sky-500" />,
+    },
     { name: "DaisyUI", icon: <SiDaisyui className="text-pink-400" /> },
     { name: "Git", icon: <FaGitAlt className="text-orange-600" /> },
     {
@@ -52,10 +57,17 @@ export default function Page() {
         <h1 className="text-3xl font-bold mb-4 text-center">
           Assalomu alaykum 👋
         </h1>
-        <p className="text-lg max-w-xl text-center mb-6">
-          Men <strong>Ibrohimjon Baxtiyorov</strong>, 19 yoshli frontend
-          dasturchiman.
+        <div className="text-center">
+
+        <p className="text-lg max-w-xl text-center">
+          Men <strong>Ibrohimjon Baxtiyorov</strong>,  Frontend
+          Dasturchiman.
         </p>
+        <p className=" mb-6">
+          <strong>Education </strong> Tashkent Chemical Technological Institute 
+          <strong> Bachelor Degree :  Artifical Inteligence 4/1</strong>
+        </p>
+        </div>
 
         <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 max-w-2xl">
           {skills.map((skill, i) => (
