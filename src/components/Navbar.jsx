@@ -13,7 +13,7 @@ export const navbarLinks = [
   },
   {
     path: "/aboute",
-    text: "Haqmida",
+    text: "Haqimda",
   },
   {
     path: "/projects",

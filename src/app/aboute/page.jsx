@@ -36,7 +36,7 @@ export default function Page() {
       icon: <SiNextdotjs className="text-black dark:text-white" />,
     },
     { name: "StrApi", icon: <SiStrapi className="text-purple-800" /> },
-    { name: "Zustant", icon: <SiRedux className="text-purple-500" /> },
+    { name: "Zustand", icon: <SiRedux className="text-purple-500" /> },
     { name: "Redux Toolkit", icon: <SiRedux className="text-purple-500" /> },
     { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400" /> },
     {
